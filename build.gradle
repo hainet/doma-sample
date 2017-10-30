@@ -1,0 +1,22 @@
+group 'com.hainet'
+version '1.0.0'
+
+apply plugin: 'java'
+apply plugin: 'idea'
+
+processResources.destinationDir = compileJava.destinationDir
+compileJava.dependsOn processResources
+
+idea.module.outputDir = compileJava.destinationDir
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile('com.h2database:h2:1.4.196')
+    compile('org.seasar.doma:doma:2.18.0')
+}
