@@ -1,5 +1,8 @@
 package com.hainet.doma.sample;
 
+import com.hainet.doma.sample.config.DomaConfig;
+import com.hainet.doma.sample.dao.PersonDao;
+import com.hainet.doma.sample.entity.Person;
 import org.seasar.doma.jdbc.tx.TransactionManager;
 
 public class DomaSampleApplication {

@@ -1,4 +1,4 @@
-package com.hainet.doma.sample;
+package com.hainet.doma.sample.entity;
 
 import org.seasar.doma.Entity;
 import org.seasar.doma.GeneratedValue;

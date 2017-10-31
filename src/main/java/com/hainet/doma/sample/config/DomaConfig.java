@@ -1,4 +1,4 @@
-package com.hainet.doma.sample;
+package com.hainet.doma.sample.config;
 
 import org.seasar.doma.SingletonConfig;
 import org.seasar.doma.jdbc.Config;

@@ -1,5 +1,7 @@
-package com.hainet.doma.sample;
+package com.hainet.doma.sample.dao;
 
+import com.hainet.doma.sample.config.DomaConfig;
+import com.hainet.doma.sample.entity.Person;
 import org.seasar.doma.Dao;
 import org.seasar.doma.Insert;
 import org.seasar.doma.Select;
